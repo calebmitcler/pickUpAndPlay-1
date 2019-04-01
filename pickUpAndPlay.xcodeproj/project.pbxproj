@@ -39,23 +39,6 @@
 		5ABEA9EEC0AC8F82F9C87423 /* Pods_pickUpAndPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365EC3C3B89B94B6BCF26D7C /* Pods_pickUpAndPlay.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		45F5A9061EC27E2700EAAFCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F5A8E91EC27E2600EAAFCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 45F5A8F01EC27E2600EAAFCF;
-			remoteInfo = pickUpAndPlay;
-		};
-		45F5A9111EC27E2700EAAFCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F5A8E91EC27E2600EAAFCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 45F5A8F01EC27E2600EAAFCF;
-			remoteInfo = pickUpAndPlay;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		1D1160AC1F72389900430FE7 /* AllGamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllGamesViewController.swift; sourceTree = "<group>"; };
 		1D2244A41F5E5FC20046114A /* WebSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSiteViewController.swift; sourceTree = "<group>"; };
@@ -90,8 +73,6 @@
 		45F5A8F91EC27E2700EAAFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45F5A8FE1EC27E2700EAAFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F5A9001EC27E2700EAAFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F5A9051EC27E2700EAAFCF /* pickUpAndPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickUpAndPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F5A9101EC27E2700EAAFCF /* pickUpAndPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickUpAndPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FBBB856E4EFC4656B51FC5 /* Pods-pickUpAndPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pickUpAndPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pickUpAndPlay/Pods-pickUpAndPlay.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,20 +83,6 @@
 			files = (
 				1DF154161F607E9600203322 /* Crashlytics.framework in Frameworks */,
 				5ABEA9EEC0AC8F82F9C87423 /* Pods_pickUpAndPlay.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F5A9021EC27E2700EAAFCF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F5A90D1EC27E2700EAAFCF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,8 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				45F5A8F11EC27E2600EAAFCF /* pickUpAndPlay.app */,
-				45F5A9051EC27E2700EAAFCF /* pickUpAndPlayTests.xctest */,
-				45F5A9101EC27E2700EAAFCF /* pickUpAndPlayUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,42 +201,6 @@
 			productReference = 45F5A8F11EC27E2600EAAFCF /* pickUpAndPlay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		45F5A9041EC27E2700EAAFCF /* pickUpAndPlayTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45F5A91C1EC27E2700EAAFCF /* Build configuration list for PBXNativeTarget "pickUpAndPlayTests" */;
-			buildPhases = (
-				45F5A9011EC27E2700EAAFCF /* Sources */,
-				45F5A9021EC27E2700EAAFCF /* Frameworks */,
-				45F5A9031EC27E2700EAAFCF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				45F5A9071EC27E2700EAAFCF /* PBXTargetDependency */,
-			);
-			name = pickUpAndPlayTests;
-			productName = pickUpAndPlayTests;
-			productReference = 45F5A9051EC27E2700EAAFCF /* pickUpAndPlayTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		45F5A90F1EC27E2700EAAFCF /* pickUpAndPlayUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45F5A91F1EC27E2700EAAFCF /* Build configuration list for PBXNativeTarget "pickUpAndPlayUITests" */;
-			buildPhases = (
-				45F5A90C1EC27E2700EAAFCF /* Sources */,
-				45F5A90D1EC27E2700EAAFCF /* Frameworks */,
-				45F5A90E1EC27E2700EAAFCF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				45F5A9121EC27E2700EAAFCF /* PBXTargetDependency */,
-			);
-			name = pickUpAndPlayUITests;
-			productName = pickUpAndPlayUITests;
-			productReference = 45F5A9101EC27E2700EAAFCF /* pickUpAndPlayUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -285,19 +214,8 @@
 					45F5A8F01EC27E2600EAAFCF = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = K42FQ8XY57;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Manual;
-					};
-					45F5A9041EC27E2700EAAFCF = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = J742724FE7;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 45F5A8F01EC27E2600EAAFCF;
-					};
-					45F5A90F1EC27E2700EAAFCF = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = J742724FE7;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 45F5A8F01EC27E2600EAAFCF;
 					};
 				};
 			};
@@ -315,8 +233,6 @@
 			projectRoot = "";
 			targets = (
 				45F5A8F01EC27E2600EAAFCF /* pickUpAndPlay */,
-				45F5A9041EC27E2700EAAFCF /* pickUpAndPlayTests */,
-				45F5A90F1EC27E2700EAAFCF /* pickUpAndPlayUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -330,20 +246,6 @@
 				45C42D401EC297500051D2E4 /* GoogleService-Info.plist in Resources */,
 				1D93E06A1F303B7A00E61AA9 /* Assets.xcassets in Resources */,
 				45F5A8FA1EC27E2700EAAFCF /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F5A9031EC27E2700EAAFCF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F5A90E1EC27E2700EAAFCF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +322,8 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -440,6 +344,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -505,34 +411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F5A9011EC27E2700EAAFCF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F5A90C1EC27E2700EAAFCF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		45F5A9071EC27E2700EAAFCF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45F5A8F01EC27E2600EAAFCF /* pickUpAndPlay */;
-			targetProxy = 45F5A9061EC27E2700EAAFCF /* PBXContainerItemProxy */;
-		};
-		45F5A9121EC27E2700EAAFCF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45F5A8F01EC27E2600EAAFCF /* pickUpAndPlay */;
-			targetProxy = 45F5A9111EC27E2700EAAFCF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		45F5A8F81EC27E2700EAAFCF /* Main.storyboard */ = {
@@ -701,7 +580,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5975a023-5a3d-4118-94fa-f40c3c2df966";
 				PROVISIONING_PROFILE_SPECIFIER = "Pick Up & Play";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -724,65 +604,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5975a023-5a3d-4118-94fa-f40c3c2df966";
 				PROVISIONING_PROFILE_SPECIFIER = "Pick Up & Play";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		45F5A91D1EC27E2700EAAFCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J742724FE7;
-				INFOPLIST_FILE = pickUpAndPlayTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pup.pickUpAndPlayTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickUpAndPlay.app/pickUpAndPlay";
-			};
-			name = Debug;
-		};
-		45F5A91E1EC27E2700EAAFCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J742724FE7;
-				INFOPLIST_FILE = pickUpAndPlayTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pup.pickUpAndPlayTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pickUpAndPlay.app/pickUpAndPlay";
-			};
-			name = Release;
-		};
-		45F5A9201EC27E2700EAAFCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = J742724FE7;
-				INFOPLIST_FILE = pickUpAndPlayUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pup.pickUpAndPlayUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = pickUpAndPlay;
-			};
-			name = Debug;
-		};
-		45F5A9211EC27E2700EAAFCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = J742724FE7;
-				INFOPLIST_FILE = pickUpAndPlayUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pup.pickUpAndPlayUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = pickUpAndPlay;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -803,24 +626,6 @@
 			buildConfigurations = (
 				45F5A91A1EC27E2700EAAFCF /* Debug */,
 				45F5A91B1EC27E2700EAAFCF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		45F5A91C1EC27E2700EAAFCF /* Build configuration list for PBXNativeTarget "pickUpAndPlayTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45F5A91D1EC27E2700EAAFCF /* Debug */,
-				45F5A91E1EC27E2700EAAFCF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		45F5A91F1EC27E2700EAAFCF /* Build configuration list for PBXNativeTarget "pickUpAndPlayUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45F5A9201EC27E2700EAAFCF /* Debug */,
-				45F5A9211EC27E2700EAAFCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
