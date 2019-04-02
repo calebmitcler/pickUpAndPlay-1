@@ -441,7 +441,7 @@ open class ImageDownloader {
             download($0, filter: filter, progress: progress, progressQueue: progressQueue, completion: completion)
         }
         #else
-        return urlRequests.compactMap {
+        return urlRequests.flatMap {
             download($0, filter: filter, progress: progress, progressQueue: progressQueue, completion: completion)
         }
         #endif
